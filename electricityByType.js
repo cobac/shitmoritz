@@ -11,7 +11,7 @@ function drawChart() {
       ['223 stations',100906,241700,331455],
       ['+25 stations', 114474, 291142, 385743],
       [' +50 stations', 134099, 332072, 399631],
-      [ '+1000 stations', 177848, 368415, 402869]
+      [ '+100 stations', 177848, 368415, 402869]
       ]);
 
 var formatter = new google.visualization.NumberFormat({
@@ -106,7 +106,7 @@ formatter.format(data, 3);
       ['223 stations',100906, 140794, 89755],
       ['+25 stations', 114474, 176668, 94601],
       [' +50 stations', 134099, 197973, 67559],
-      [ '+1000 stations', 177848, 190567, 34456]
+      [ '+100 stations', 177848, 190567, 34456]
       ]);
  
 
@@ -131,7 +131,7 @@ button1.onclick = function() {
       ['223 stations',100906,241700,331455],
       ['+25 stations', 114474, 291142, 385743],
       [' +50 stations', 134099, 332072, 399631],
-      [ '+1000 stations', 177848, 368415, 402869]
+      [ '+100 stations', 177848, 368415, 402869]
       ]);
 
 var formatter = new google.visualization.NumberFormat({
