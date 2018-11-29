@@ -80,7 +80,7 @@ formatter.format(data, 3);
     },
 
     animation: {
-      duration: 20000,
+      duration: 3000,
       easing: 'out',
       startup: true
     },
