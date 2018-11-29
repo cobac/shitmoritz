@@ -103,7 +103,7 @@ formatter.format(data, 3);
     button1.classList.remove("disabled");
     data = google.visualization.arrayToDataTable([
       
-['Number of stations', '0-5 min service area', '5-10 min service area ', '10-15 min service area'],
+['Number of stations', '5 min service area', '10 min service area ', '15 min service area'],
       ['223 stations',100906, 140794, 89755],
       ['+25 stations', 114474, 176668, 94601],
       [' +50 stations', 134099, 197973, 67559],
@@ -112,7 +112,7 @@ formatter.format(data, 3);
  
 
 var formatter = new google.visualization.NumberFormat({
-  suffix: "%",
+  suffix: "",
   fractionDigits: 1
 });
 
