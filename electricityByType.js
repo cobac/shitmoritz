@@ -15,7 +15,7 @@ function drawChart() {
       ]);
 
 var formatter = new google.visualization.NumberFormat({
-  suffix: " gigawatt hours (GWh)",
+  suffix: "",
   fractionDigits: 0
 });
 
@@ -136,7 +136,7 @@ button1.onclick = function() {
       ]);
 
 var formatter = new google.visualization.NumberFormat({
-  suffix: " gigawatt hours (GWh)",
+  suffix: "",
   fractionDigits: 0
 });
 
