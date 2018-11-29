@@ -7,7 +7,7 @@ function drawChart() {
 
   // actual area chart data
   var data = google.visualization.arrayToDataTable([
-      ['Number of stations', '5 min service area', '10 min service area ', '15 min service area'],
+      ['Number of stations', '0-5 min service area', '5-10 min service area ', '10-15 min service area'],
       ['223 stations',100906,241700,331455],
       ['+25 stations', 114474, 291142, 385743],
       [' +50 stations', 134099, 332072, 399631],
@@ -103,7 +103,7 @@ formatter.format(data, 3);
     button1.classList.remove("disabled");
     data = google.visualization.arrayToDataTable([
       
-['Number of stations', '5 min service area', '10 min service area ', '15 min service area'],
+['Number of stations', '0-5 min service area', '5-10 min service area ', '10-15 min service area'],
       ['223 stations',100906, 140794, 89755],
       ['+25 stations', 114474, 176668, 94601],
       [' +50 stations', 134099, 197973, 67559],
@@ -128,7 +128,7 @@ button1.onclick = function() {
   button1.classList.add("disabled");
   button2.classList.remove("disabled");
   data = google.visualization.arrayToDataTable([
-  ['Number of stations', '5 min service area', '10 min service area ', '15 min service area'],
+  ['Number of stations', '0-5 min service area', '5-10 min service area ', '10-15 min service area'],
       ['223 stations',100906,241700,331455],
       ['+25 stations', 114474, 291142, 385743],
       [' +50 stations', 134099, 332072, 399631],
